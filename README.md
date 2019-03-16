@@ -3,11 +3,15 @@
 An Electron-based client for MS Outlook.
 
 ## Pre-Request
-The latest version of node.js and npm installed on your system.
+The latest version of git, node and npm installed on your system. Clone the repo using this command.
+
+```
+git clone https://github.com/mjakal/fym-app.git
+```
 
 ## How to run in development mode
 
-cd into fym-app folder and run this commands.
+cd into fym-app folder and run these commands.
 
 ```
 npm install
