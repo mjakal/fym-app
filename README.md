@@ -17,21 +17,15 @@ cd into fym-app folder and run these commands.
 npm install
 npm start
 ```
+
 ## How to build for production
 
-cd into fym-app folder and run this command.
+cd into fym-app folder and run one of the commands below depending on your operating system.
 
 ```
-npm run dist
+npm run build:linux
+npm run build:mac
+npm run build:win
 ```
 
 When done, your distributable package will be placed inside /dist folder.
-
-To build for other platforms, open package.json with your favorite text editor and edit the line below.
-
-```
-"dist": "build -l --x64"
-```
-
--l flag represents linux os, modify this flag depending on you os.
-options: [-m -w -l] (Mac|Windows|Linux).

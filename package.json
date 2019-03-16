@@ -15,7 +15,9 @@
     "start": "electron src/main.js",
     "pack": "electron-builder --dir",
     "postinstall": "electron-builder install-app-deps",
-    "dist": "build -l --x64"
+    "build:linux": "build -l --x64",
+    "build:mac": "build -m --x64",
+    "build:win": "build -w --x64"
   },
   "devDependencies": {
     "electron": "^4.1.0",
