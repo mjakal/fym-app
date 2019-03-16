@@ -22,7 +22,6 @@ class MailWindowController {
             y: 100,
             width: 1280,
             height: 720,
-            fullscreen: true,
             frame: showWindowFrame,
             autoHideMenuBar: true,
             show: false,
