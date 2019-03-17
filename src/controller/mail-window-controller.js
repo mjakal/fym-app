@@ -30,6 +30,9 @@ class MailWindowController {
 
         // and load the index.html of the app.
         this.win.loadURL(outlookUrl)
+        
+        // maximize app window
+        this.win.maximize()
 
         // Show window handler
         ipcMain.on('show', (event) => {
